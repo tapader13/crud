@@ -1,0 +1,18 @@
+.container {
+    background-color: antiquewhite;
+
+    width: 100vw;
+    padding-inline: 3rem;
+}
+
+.intro {
+    padding-block: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.desc {
+    padding-block: 1.2rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}

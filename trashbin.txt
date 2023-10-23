@@ -1,0 +1,252 @@
+base: '/crud/',
+ 
+Book
+ 
+It is a foundational
+        concept for various types of software applications, from simple to
+        complex, and serves as the backbone for managing data effectively and
+        efficiently.
+ 
+ height: 87vh;
+ 
+'intro'
+ 
+ display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+A CRUD (Create, Read, Update, Delete) application is a fundamental type of
+      software application that provides essential operations for managing and
+      manipulating data. These operations are the building blocks of many web
+      and database applications, allowing users to interact with and manipulate
+      data stored in a database. Let's break down the key components of a CRUD
+      app and how it works: 1. Create (C): The "Create" operation involves
+      adding new data to the system. Users can input data through forms, APIs,
+      or other input methods. This data is then stored in a database, creating a
+      new record. 2. Read (R): The "Read" operation allows users to retrieve or
+      access data from the database. Users can query, search, or simply view the
+      data stored in the system. Reading operations are essential for displaying
+      data on user interfaces. 3. Update (U): The "Update" operation lets users
+      modify or edit existing data. This involves making changes to specific
+      records by updating their attributes or values. It's crucial for keeping
+      data up-to-date. 4. Delete (D): The "Delete" operation allows users to
+      remove data from the system. This operation is often used to clean up
+      obsolete or irrelevant records, ensuring data integrity and efficiency.
+      How a CRUD App Works: User Interaction: Users interact with a CRUD app
+      through a user interface. This interface may be a web application, mobile
+      app, or even an API. Frontend: In a web application, the frontend is
+      responsible for rendering the user interface and capturing user input for
+      Create and Update operations. Backend: The backend of the application
+      handles the core logic. It communicates with the database, processes user
+      requests, and performs the CRUD operations. It also ensures data
+      validation and security. Database: The database is where data is stored,
+      organized, and retrieved. Data is stored in tables, documents, or other
+      structures, depending on the database system being used. APIs (optional):
+      In many modern applications, APIs are used to facilitate communication
+      between the frontend and backend. These APIs enable seamless data exchange
+      and are commonly used in web and mobile applications. Validation and
+      Security: CRUD apps implement validation checks to ensure data integrity
+      and protect against unauthorized access or malicious input. Data Storage:
+      Data is stored and organized in the database, ensuring it's available for
+      Read operations and can be updated or deleted as needed. User Feedback:
+      After each CRUD operation, the user receives feedback, whether it's a
+      success message or an error notification. In summary, a CRUD app
+      simplifies the process of managing data, making it accessible, editable,
+      and deletable as needed. It is a foundational concept for various types of
+      software applications, from simple to complex, and serves as the backbone
+      for managing data effectively and efficiently.
+ 
+addbook
+ 
+.inp1 {
+    padding-bottom: .7rem;
+}
+
+.inp2 {
+    padding-bottom: .7rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.form {
+    width: 600px;
+    /* background-color: aqua; */
+    text-align: center;
+    padding-block: 1rem;
+}
+
+.title,
+.desc {
+    width: 70%;
+    font-size: 1.1rem;
+    padding-block: .3rem;
+    padding-inline: 1rem;
+    border-radius: 10px;
+    border: none;
+    outline: none
+}
+
+.label {
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+
+.btn {
+    font-size: 1.1rem;
+    padding-inline: .7rem;
+    padding-block: .4rem;
+    background-color: darkgreen;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: aliceblue;
+}
+ 
+Home
+ 
+MLWBD
+ 
+align-items: center;
+ 
+between
+ 
+<br />
+ 
+<textarea name="" id="" ></textarea>
+ 
+textarea
+ 
+rows={30}
+ 
+, title, desc
+ 
+ state.users = state.users.filter((user) => {
+        return user.id !== idr;
+      });
+ 
+.state
+ 
+state
+ 
+title
+ 
+title
+ 
+title
+ 
+onChange={(e) => {
+              setDesc(e.target.value);
+            }}
+ 
+   value={desc}
+ 
+ onChange={(e) => {
+              setTitle(e.target.value);
+            }}
+ 
+value={title}
+ 
+onSubmit={handleSub}
+ 
+  </div>
+ 
+ <div>
+ 
+EditBook
+ 
+ <Link ></Link>
+ 
+ShwBook
+ 
+ width: ;
+ 
+40%
+ 
+.btn,
+ 
+'inp1'
+ 
+title
+ 
+AddBook
+ 
+'btn'
+ 
+ ${style.btn}
+ 
+ ${style.btn}
+ 
+className={style.table}
+ 
+: ;width
+ 
+<tr></tr>
+ 
+max-
+ 
+ min-width: ;
+ 
+'container'
+ 
+store
+ 
+React.StrictMode
+ 
+()=>{}
+ 
+ () => {}
+ 
+<error
+ 
+20px
+ 
+ padding-block: .;
+ 
+style={{ style }}
+ 
+.container
+ 
+home
+ 
+  <NavLink to='/'>home</NavLink>
+        <NavLink to={/addBook}>home</NavLink>
+        <NavLink to={/showBook}>home</NavLink>
+ 
+to={/}
+ 
+Navbar
+ 
+i;
+
+ 
+import './index.css'
+
+ 
+ <div>
+        <a href="https://vitejs.dev" target="_blank">
+          <img src={viteLogo} className="logo" alt="Vite logo" />
+        </a>
+        <a href="https://react.dev" target="_blank">
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
+      </div>
+      <h1>Vite + React</h1>
+      <div className="card">
+        <button onClick={() => setCount((count) => count + 1)}>
+          count is {count}
+        </button>
+        <p>
+          Edit <code>src/App.jsx</code> and save to test HMR
+        </p>
+      </div>
+      <p className="read-the-docs">
+        Click on the Vite and React logos to learn more
+      </p>
+ 
+const [count, setCount] = useState(0)
+ 

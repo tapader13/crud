@@ -1,0 +1,42 @@
+.container {
+    background-color: antiquewhite;
+    height: 87vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    max-width: 700px;
+    /* background-color: aqua; */
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.table,
+.tr,
+.td {
+    border: 1px solid blue;
+    padding-block: .3rem;
+    font-size: 1.1rem;
+    padding-inline: .2rem;
+
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media (max-width:560px) {
+    .btn {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .table {
+        margin-inline: 5px;
+    }
+}

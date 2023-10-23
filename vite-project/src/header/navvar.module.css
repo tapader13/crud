@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.NavLink {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.NavLink:hover {
+    color: green;
+}
+
+.nav {
+    background-color: brown;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

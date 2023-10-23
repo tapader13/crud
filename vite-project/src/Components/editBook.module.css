@@ -1,0 +1,57 @@
+.container {
+    background-color: antiquewhite;
+    height: 87vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inp1 {
+    padding-bottom: .7rem;
+}
+
+.inp2 {
+    padding-bottom: .7rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.form {
+    width: 600px;
+    /* background-color: aqua; */
+    text-align: center;
+    padding-block: 1rem;
+}
+
+.title,
+.desc {
+    width: 70%;
+    font-size: 1.1rem;
+    padding-block: .3rem;
+    padding-inline: 1rem;
+    border-radius: 10px;
+    border: none;
+    outline: none
+}
+
+.label {
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+
+.btn {
+    font-size: 1.1rem;
+    padding-inline: .7rem;
+    padding-block: .4rem;
+    background-color: darkgreen;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: aliceblue;
+}
